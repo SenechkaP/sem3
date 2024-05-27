@@ -60,7 +60,8 @@ bool Credit::paymentCompleted() {
     }
 }
 
-void Credit::transferFromAccountToAccount(Account &to, float& money) {
+void Credit::transferFromAccountToAccount(Account &to, float money) {
+    std::cout << "method in class Credit\n\n";
     this->getMoney(money);
     to.putMoney(money - (money * this->interestOfTransfering));
 }

@@ -55,5 +55,15 @@ int main() {
 
     cout << all_credits_dynam[2].get_money() << "\n";
 
+    // 4 семинар
+
+//    Account *some_acc = &all_credits_dynam[2];
+//
+//    some_acc->transferFromAccountToAccount(all_credits_stat[1], 10);
+//
+//    some_acc = new Account(19, 234.32, "John");
+//
+//    some_acc->transferFromAccountToAccount(all_credits_stat[1], 20);
+
     delete[] all_credits_dynam;
 }

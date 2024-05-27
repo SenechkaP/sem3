@@ -64,6 +64,7 @@ void Account::getMoney(float money) {
 }
 
 void Account::transferFromAccountToAccount(Account &to, float money) {
+    std::cout << "method in class Account\n\n";
     this->money -= money;
     to.money += money;
 }

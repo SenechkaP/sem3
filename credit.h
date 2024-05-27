@@ -51,6 +51,6 @@ public:
 
     bool paymentCompleted();
 
-    void transferFromAccountToAccount(Account &to, float &money);
+    void transferFromAccountToAccount(Account &, float);
 };
 

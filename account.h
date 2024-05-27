@@ -32,5 +32,5 @@ public:
 
     void getMoney(float);
 
-    void transferFromAccountToAccount(Account &, float);
+    virtual void transferFromAccountToAccount(Account &, float);
 };
